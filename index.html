@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -15,11 +16,57 @@
   <body>
     <header>
       <nav class="main-nav">
-        <a href="#">Gmail</a>
-        <a href="#">Bilder</a>
-        <i class="fas fa-th fa-2x"></i>
-        <i class="fas fa-user-circle fa-2x"></i>
+        <div><a href="#">Gmail</a></div>
+        <div><a href="#">Bilder</a></div>
+        <div class="grid-icon"><i class="fas fa-th fa-2x"></i></div>
+        <div class="user-icon">
+          <i class="fas fa-user-circle fa-2x"></i>
+        </div>
       </nav>
     </header>
+    <main>
+      <div class="container">
+        <div class="inner-content">
+          <img
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt=""
+            class="logo"
+          />
+          <form action="#" class="search">
+            <input type="text" />
+            <div class="btn-container">
+              <button class="btn" id="searchBtn">Sök på Google</button>
+              <button class="btn" id="luckBtn">Jag har tur</button>
+            </div>
+          </form>
+          <p>Google på: <a href="#">English</a></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="country">
+        <p>Sverige</p>
+      </div>
+      <div class="footer-links">
+        <ul id="links-1">
+          <li><a href="#">Om</a></li>
+          <li><a href="#">Annonsering</a></li>
+          <li><a href="#">Företagslösningar</a></li>
+          <li><a href="#">Så fungerar Sök</a></li>
+        </ul>
+        <div class="environment-info">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+            alt=""
+            class="environment-icon"
+          /><a href="#">Koldioxidneutralt sedan 2007</a>
+        </div>
+        <ul id="links-2">
+          <li><a href="#">Sekretess</a></li>
+          <li><a href="#">Villkor</a></li>
+          <li><a href="#">Inställningar</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
